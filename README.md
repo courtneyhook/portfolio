@@ -1,2 +1,2 @@
 # portfolio
-My portfolio of my work.
+Portfolio of my work.
