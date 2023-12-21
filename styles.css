@@ -1,0 +1,17 @@
+:root {
+  --color1: #f94144;
+  --color2: #f3722c;
+  --color3: #f8961e;
+  --color4: #f9844a;
+  --color5: #f9c74f;
+  --color6: #90be6d;
+  --color7: #43aa8b;
+  --color8: #4d908e;
+  --color9: #577590;
+  --color10: #277da1;
+  --dark: #232323;
+}
+
+* {
+  background-color: var(--dark);
+}
