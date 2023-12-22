@@ -17,11 +17,6 @@
   background-color: var(--darker);
 }
 
-.grid-container {
-  display: grid;
-  height: 150px;
-}
-
 button {
   border: none;
 }
@@ -34,6 +29,11 @@ img {
 
 p {
   font-size: 2vw;
+}
+
+.grid-container {
+  display: grid;
+  height: 150px;
 }
 
 .item {
