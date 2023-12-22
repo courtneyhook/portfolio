@@ -28,100 +28,178 @@ button {
 
 img {
   float: left;
-  max-height: 150px;
+  width: 10%;
+  height: auto;
 }
+
+p {
+  font-size: 2vw;
+}
+
 .item {
   height: auto;
   background-color: var(--dark);
   margin: 5px;
+  text-align: center;
 }
 .item1 {
   grid-column: 1/3;
   grid-row: 1/3;
-  font-size: 3rem;
+  font-size: 6vw;
   text-align: center;
+  height: 200px;
+}
+
+.color1:hover {
+  background-color: var(--color1);
+  box-shadow: 1px 1px 5px 1px var(--color1);
 }
 .item2 {
   grid-column: 3 / span 0.5;
   grid-row: 1;
+  font-size: 3vw;
 }
 
 .item3 {
   grid-column: 3 / span 0.5;
   grid-row: 1;
+  font-size: 3vw;
 }
 
 .item4 {
   grid-column: 3;
   grid-row: 2;
+  font-size: 3vw;
 }
 
 .item5 {
   grid-column: 4;
   grid-row: 2;
+  font-size: 3vw;
 }
 
 .item6 {
   grid-column: 1;
   grid-row: 3;
+  font-size: 1.5vw;
 }
 
 .item7 {
   grid-column: 2/5;
   grid-row: 3;
+  text-align: left;
+  padding: 5px;
+}
+
+.item7:hover {
+  background-color: var(--color3);
 }
 
 .item8 {
   grid-column: 1;
-  grid-row: 4;
+  grid-row: 4/6;
+  font-size: 1.5vw;
 }
 
 .item9 {
   grid-column: 2;
   grid-row: 4;
+  height: 200px;
+}
+
+.item9:hover {
+  background-color: var(--color4);
+  transform: scale(1.5);
+  box-shadow: 1px 1px 5px 1px var(--color4);
 }
 
 .item10 {
   grid-column: 3;
   grid-row: 4;
+  height: 200px;
+}
+
+.item10:hover {
+  background-color: var(--color5);
+  transform: scale(1.5);
+  box-shadow: 1px 1px 5px 1px var(--color5);
 }
 
 .item11 {
   grid-column: 4;
   grid-row: 4;
+  height: 200px;
+}
+
+.item11:hover {
+  background-color: var(--color6);
+  transform: scale(1.5);
+  box-shadow: 1px 1px 5px 1px var(--color6);
 }
 
 .item12 {
   grid-column: 2;
   grid-row: 5;
+  height: 200px;
+}
+
+.item12:hover {
+  background-color: var(--color7);
+  transform: scale(1.5);
+  box-shadow: 1px 1px 5px 1px var(--color7);
 }
 
 .item13 {
   grid-column: 3;
   grid-row: 5;
+  height: 200px;
+}
+
+.item13:hover {
+  background-color: var(--color8);
+  transform: scale(1.5);
+  box-shadow: 1px 1px 5px 1px var(--color8);
 }
 
 .item14 {
   grid-column: 4;
   grid-row: 5;
+  height: 200px;
+}
+
+.item14:hover {
+  background-color: var(--color9);
+  transform: scale(1.5);
+  box-shadow: 1px 1px 5px 1px var(--color9);
 }
 
 .item15 {
   grid-column: 1;
   grid-row: 6;
+  font-size: 1.5vw;
 }
 
+.color2:hover {
+  background-color: var(--color2);
+}
 .item16 {
   grid-column: 2;
   grid-row: 6;
+  font-size: 3vw;
 }
 
 .item17 {
   grid-column: 3;
   grid-row: 6;
+  font-size: 3vw;
 }
 
 .item18 {
   grid-column: 4;
   grid-row: 6;
+  font-size: 3vw;
+}
+
+.color10:hover {
+  background-color: var(--color10);
 }
